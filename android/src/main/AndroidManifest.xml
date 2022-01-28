@@ -18,5 +18,8 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
+         <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
     </application>
 </manifest>
